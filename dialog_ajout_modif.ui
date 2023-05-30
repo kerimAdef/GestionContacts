@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog_ajout_modif</class>
+ <widget class="QDialog" name="Dialog_ajout_modif">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1205</width>
+    <height>592</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>160</y>
+     <width>651</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="idLabel">
+      <property name="text">
+       <string>id</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="idcon"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="nomLabel">
+      <property name="text">
+       <string>Nom</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="nom"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="prenomLabel">
+      <property name="text">
+       <string>prenom</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="prenom"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="entrepriseLabel">
+      <property name="text">
+       <string>Entreprise</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="entreprise"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="mailLabel">
+      <property name="text">
+       <string>mail</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="mail"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="telephoneLabel">
+      <property name="text">
+       <string>Telephone</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="telephone"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QPushButton" name="supprime">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>1000</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Supprimer</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QPushButton" name="modifie">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>300</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Modifier</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="photo"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="photoLabel">
+      <property name="text">
+       <string>photo</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
